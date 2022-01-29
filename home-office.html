@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Category name</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300"
+      rel="stylesheet"
+    />
+    <style>
+      .hero-body {
+        padding: 3rem 3rem;
+      }
+      .navbar {
+        font-family: sans-serif;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding-bottom: 5px;
+      }
+      .navbar-item img {
+        max-height: 2.95rem;
+      }
+      .wrapper {
+        width: 90%;
+        margin: 0 auto;
+      }
+      .spacer {
+        margin-top: 130px;
+      }
+
+      body {
+        font-family: "Lora", serif;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+      }
+
+      .overtitle {
+        color: rgb(142, 142, 142);
+      }
+
+      .franja {
+        background: #bbb2a8 !important;
+      }
+
+      .franja .title {
+        color: black !important;
+      }
+
+      .franja .subtitle {
+        color: black !important;
+      }
+
+      .franja p {
+        color: rgb(60, 56, 56) !important;
+      }
+
+      .icon-list {
+        padding-top: 5px;
+      }
+
+      footer {
+        background: #776862;
+      }
+
+      footer hr {
+        background-color: #141414;
+      }
+
+      footer .title {
+        color: white;
+      }
+
+      footer .subtitle {
+        color: white;
+      }
+
+      footer p {
+        color: white;
+      }
+
+      footer a {
+        color: white;
+      }
+    </style>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img height="190px" width="auto" src="./img/HOLgo.svg" />
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start"></div>
+
+        <div class="navbar-end">
+          <a href="index.html" class="navbar-item"> Home </a>
+
+          <a href="home-office.html" class="navbar-item"> Home Office </a>
+
+          <a href="setups.html" class="navbar-item"> Setups </a>
+
+          <a class="navbar-item"> </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="wrapper">
+      <section class="hero is-medium">
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns is-vcentered">
+              <div class="column is-5">
+                <h5 class="title is-6 is-uppercase overtitle">
+                  Acondicionamiento en casa
+                </h5>
+                <h1 class="title is-2">Oficinas personalizadas</h1>
+                <p>
+                  Manten tus asuntos de negocios en tu negocio. <br /><br />
+                  Nos encargamos de definir un espacio de trabajo en casa para
+                  separar el placer de tus habitaciones con casa de el rigor de
+                  tu oficina.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="hero is-fullheight franja">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column is-5">
+              <h3 class="title is-3">Todo lo que necesitas, a tu medida</h3>
+              <br />
+              <table>
+                <tr>
+                  <td>
+                    <p>
+                      <ion-icon size="large" name="ellipse-outline"></ion-icon>
+                      &nbsp;&nbsp;
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      Acondicionamiento de espacios, iluminación e interiorismo.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>
+                      <ion-icon size="large" name="ellipse-outline"></ion-icon>
+                      &nbsp;&nbsp;
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      Mobiliario hecho a la medida de tus necesidades y con
+                      dimensiones personalizadas.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+              <br />
+            </div>
+            <div class="column is-offset-1">
+              <figure class="image is-3by2">
+                <img src="./img/home-office-2.jpeg" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="spacer"></div>
+
+    <div class="wrapper">
+      <section class="hero is-fullheight">
+        <div class="hero-body">
+          <div class="container">
+            <h4 class="title is-6 has-text-centered is-uppercase overtitle">
+              Tu oficina en casa
+            </h4>
+            <h4 class="title is-2 has-text-centered">Opciones</h4>
+
+            <div class="spacer"></div>
+
+            <div class="columns is-vcentered has-text-centered">
+              <div class="column">
+                <figure class="image">
+                  <img src="img/home-1.jpeg" />
+                </figure>
+                <br />
+                <h4 class="subtitle is-6 is-uppercase">Cuarto de oficina</h4>
+              </div>
+
+              <div class="column">
+                <figure class="image">
+                  <img src="img/home-2.jpeg" />
+                </figure>
+                <br />
+                <h4 class="subtitle is-6 is-uppercase">Estudio</h4>
+              </div>
+
+              <div class="column">
+                <figure class="image">
+                  <img src="img/home-3.jpeg" />
+                </figure>
+                <br />
+                <h4 class="subtitle is-6 is-uppercase">Escritorios</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="wrapper">
+      <section class="hero is-medium">
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns is-vcentered">
+              <div class="column is-5">
+                <h5 class="title is-6 is-uppercase overtitle">Contacto</h5>
+                <h1 class="title is-2">Cotiza tu oficina</h1>
+                <p>
+                  ¿Qué tienes en mente?
+                  <br />
+                  <br />
+                  Estamos a tus ordenes en:
+                </p>
+                <br />
+                <span>proyectos@home-office.mx</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="hero-body wrapper">
+        <div class="columns is-vcentered">
+          <div class="column is-4 intro-desc">
+            <!--<h4 style="margin-bottom: 10px;" class="title is-6 is-uppercase">presentación con imagen</h4>-->
+            <h2 class="title is-3">Homeoffice.mx</h2>
+            <p style="font-size: 0.9em">
+              Nos encargamos de brindar la mayor eficiencia y comodidad a tus
+              espacios de trabajo.
+            </p>
+            <br />
+          </div>
+          <div class="column is-offset-1">
+            <h2 style="margin-bottom: 10px" class="subtitle is-5">Productos</h2>
+            <ul>
+              <li style="font-size: 0.9em"><a href="#">Nuestro trabajo</a></li>
+              <li style="font-size: 0.9em"><a href="#">Categorías</a></li>
+              <li style="font-size: 0.9em">
+                <a href="#">Servicios adicionales</a>
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <h2 style="margin-bottom: 10px" class="subtitle is-5">Sitio</h2>
+            <ul>
+              <li style="font-size: 0.9em">
+                <a href="#">Términos y condiciones</a>
+              </li>
+              <li style="font-size: 0.9em">
+                <a href="#">Poítica de Privacidad</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
